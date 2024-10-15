@@ -4,7 +4,7 @@ module.exports = defineConfig({
   configureWebpack: {
     devtool: "source-map"
   }, 
-  outputDor: process.env.NODE_ENV === 'development' ? 'dist-dev':
+  outputDir: process.env.NODE_ENV === 'development' ? 'dist-dev':
              process.env.NODE_ENV === 'uat' ? 'dist-uat':
              'dist',
 })
