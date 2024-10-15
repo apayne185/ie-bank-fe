@@ -31,6 +31,7 @@
       background-clip: text;
       -webkit-text-fill-color: transparent;
       color: transparent; 
+      text-align: center;
   }
   p {
       color: #8b7575;

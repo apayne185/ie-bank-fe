@@ -6,7 +6,7 @@
           <h1>Accounts</h1>
           <hr />
           <br />
-          <!-- Allert Message -->
+          <!-- Alert Message -->
           <b-alert v-if="showMessage" variant="success" show>{{
             message
           }}</b-alert>
@@ -30,6 +30,7 @@
                 <th scope="col">Country</th>
                 <th scope="col">Account Status</th>
                 <th scope="col">Actions</th>
+
               </tr>
             </thead>
             <tbody>
@@ -274,7 +275,7 @@ export default {
     initForm() {
       this.createAccountForm.name = "";
       this.createAccountForm.currency = "";
-      this.createAccountForm.country="";
+      this.createAccountForm.country = "";
       this.editAccountForm.id = "";
       this.editAccountForm.name = "";
     },
