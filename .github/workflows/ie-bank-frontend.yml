@@ -14,7 +14,7 @@ env:
   FRONTEND_WEBAPP_UAT: apayne-fe-uat
 
 jobs:
-  build:
+  build-dev:
     runs-on: ubuntu-latest
 
     steps:
